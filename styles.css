@@ -1,0 +1,31 @@
+body {
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 0;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+input {
+    margin: 5px;
+}
+form {
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 5px double #000000;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 100px 38% 20px;
+    top: 50%;
+    text-align: center;
+}
+#username, #password, #email {
+    background-color: rgba(0, 0, 80, 0.35);
+    border: 4px double #000000;
+    border-radius: 10px;
+    padding: 5px;
+}
+#submit {
+    background-color: rgb(110, 114, 158);
+    border: 2px double #000000;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
